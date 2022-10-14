@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./images/bg-pattern-top-desktop.svg");
+    background-repeat: no-repeat;
+}
+.main-container{
+    padding: 50px;
+}
+
+.top-container{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    padding: 80px;
+}
+
+.top-left-container{
+    margin-right: 130px;
+}
+
+.heading{
+    color: hsl(300, 43%, 22%);
+    font-size: 50px;
+    width: 400px;
+}
+
+.para{
+    color: hsl(303, 10%, 53%);
+    font-size: 20px;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.top-right-container{
+
+}
+
+.ratings-container{
+
+}
+
+.rating-container{
+    background-color: hsl(300, 24%, 96%);
+    width: 400px;
+    padding: 17px 25px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.rating-container:nth-of-type(2){
+    margin-left: 50px;
+}
+
+.rating-container:nth-of-type(3){
+    margin-left: 100px;
+}
+
+.star-container{
+
+}
+
+.review{
+    color:hsl(300, 43%, 22%);
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.bottom-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.review-card{
+    background-color: hsl(300, 43%, 22%);
+    width: 350px;
+    height: 250px;
+    padding: 30px 50px;
+    border-radius: 10px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+
+.review-card:nth-of-type(2){
+    margin-top: 20px;
+}
+
+.review-card:nth-of-type(3){
+    margin-top: 40px;
+}
+
+.buyer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.profile-image{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.name-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.name{
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.verified-buyer{
+    color: hsl(333, 80%, 67%);
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.buyer-comment{
+    color: hsl(300, 24%, 96%);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+    line-height: 23px;
+}
