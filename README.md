@@ -20,7 +20,7 @@
 
 ## Links
 
-- Live Site URL: []()
+- Live Site URL: [https://social-proof-section-brijen.vercel.app](https://social-proof-section-brijen.vercel.app)
 
 ## Built with
 
